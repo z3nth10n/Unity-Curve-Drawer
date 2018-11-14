@@ -1,5 +1,4 @@
 # Unity Curve Drawer
-====================
 
 With this asset you can draw curves using random noises.
 
