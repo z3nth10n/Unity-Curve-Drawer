@@ -39,13 +39,15 @@ public class CurveDisplay : MonoBehaviour
     {
         texture = new Color(0, 0, 0, 0).ToTexture(width, height);
 
+        // Draw gray lines
+
         for (int i = 0; i < width; i++)
         {
             for (int j = 0; j < 3; j++)
             {
-                float y = (j / 2f) * height;
+                float y = (j / 2f) * (height - 1);
 
-                texture.SetPixel(i, (int)Mathf.Clamp(y, 10, height - 1), Color.gray);
+                texture.SetPixel(i, (int)y, Color.gray);
             }
         }
 
@@ -58,7 +60,8 @@ public class CurveDisplay : MonoBehaviour
 
         for (int m = 0; m < width; m++)
         {
-            texture.SetPixel(m, height / 2, Color.yellow);
+            // (int)(height / 2 + meanHeight * height)
+            texture.SetPixel(m, (int)(F.ConvertRange(-.5f, .5f, 0, 1, meanHeight) * (height - 1)), Color.yellow);
         }
 
         texture.Apply();
