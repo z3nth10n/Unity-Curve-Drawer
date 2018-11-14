@@ -74,9 +74,9 @@ public class CurveDisplay : MonoBehaviour
 
         for (int k = 0; k < width; k++)
         {
-            float v = F.ConvertRange(-1, 1, 0, 1, noise.GetValueFractal(k, 0));
+            //float v = F.ConvertRange(-1, 1, 0, 1, noise.GetValueFractal(k, 0));
 
-            v = F.GetBoundedNoise(v, meanHeight, amplitude);
+            float v = F.GetBoundedNoise(noise.GetValueFractal(k, 0), meanHeight, amplitude);
 
             texture.SetPixel(k, (int)(v * (height - 1)), Color.green);
         }

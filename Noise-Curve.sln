@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noise-Curve", "Noise-Curve.csproj", "{C83B10B8-F613-4BE3-AF2D-8AAC862DE799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noise-Curve.Editor", "Noise-Curve.Editor.csproj", "{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", "Unity.TextMeshPro.Editor.csproj", "{3A848AB7-9891-EDDA-D555-BF184C2F81F4}"
@@ -12,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.CollabProxy.Editor", "Unity.CollabProxy.Editor.csproj", "{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Analytics.Android.Editor", "Unity.Analytics.Android.Editor.csproj", "{1DAFA655-A0D1-7D0E-9403-558A7B5754C5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noise-Curve.Editor", "Noise-Curve.Editor.csproj", "{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +29,10 @@ Global
 		{C83B10B8-F613-4BE3-AF2D-8AAC862DE799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C83B10B8-F613-4BE3-AF2D-8AAC862DE799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C83B10B8-F613-4BE3-AF2D-8AAC862DE799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,10 +49,6 @@ Global
 		{1DAFA655-A0D1-7D0E-9403-558A7B5754C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DAFA655-A0D1-7D0E-9403-558A7B5754C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DAFA655-A0D1-7D0E-9403-558A7B5754C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59C4D3DE-183E-1E7F-CDF5-D5B5A0A0CACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

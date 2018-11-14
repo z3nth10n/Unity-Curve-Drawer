@@ -73,6 +73,6 @@ public static class F
         //if (value < 0)
         //    value = Mathf.Abs(value);
 
-        return Mathf.Clamp01(ConvertRange(0, 1, -amplitude, amplitude, value) + (meanHeight + .5f));
+        return Mathf.Clamp01(ConvertRange(0, 1, -amplitude, amplitude, ConvertRange(-1, 1, 0, 1, value)) + (meanHeight + .5f));
     }
 }
